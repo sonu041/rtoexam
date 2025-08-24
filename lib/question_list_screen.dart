@@ -17,9 +17,15 @@ class QuestionListScreen extends StatelessWidget {
           String questionText = q.containsKey('id')
               ? 'Q${q['id']}: ${q['question']}'
               : q['question'];
-          return ListTile(
-            title: Text(questionText, maxLines: 1, overflow: TextOverflow.ellipsis),
-            onTap: () => onQuestionTap(index),
+          final Color bgColor = index % 2 == 0
+              ? Colors.white
+              : Colors.grey.shade100;
+          return Container(
+            color: bgColor,
+            child: ListTile(
+              title: Text(questionText, maxLines: 1, overflow: TextOverflow.ellipsis),
+              onTap: () => onQuestionTap(index),
+            ),
           );
         },
       ),

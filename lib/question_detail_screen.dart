@@ -79,31 +79,43 @@ class QuestionDetailScreen extends StatelessWidget {
                 }
               }
               return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 4.0),
+                padding: const EdgeInsets.symmetric(vertical: 8.0),
                 child: Container(
                   decoration: BoxDecoration(
                     border: Border.all(
                       color: borderColor ?? Colors.transparent,
                       width: 2,
                     ),
-                    borderRadius: BorderRadius.circular(8),
+                    borderRadius: BorderRadius.circular(12),
                   ),
-                  child: ElevatedButton(
-                    onPressed: selectedIndex == -1 ? () => onSelectOption(index) : null,
-                    child: Text(options[index], style: TextStyle(color: Colors.black)),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: selectedIndex == index
-                          ? (index == correctIndex
-                              ? Colors.green
-                              : Colors.red)
-                          : Colors.white,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 56,
+                    child: ElevatedButton(
+                      onPressed: selectedIndex == -1 ? () => onSelectOption(index) : null,
+                      child: Text(
+                        options[index],
+                        style: const TextStyle(
+                          color: Colors.black,
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                        ),
                       ),
-                      elevation: 0,
-                      foregroundColor: Colors.black,
-                      disabledForegroundColor: Colors.black,
-                      disabledBackgroundColor: Colors.white,
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: selectedIndex == index
+                            ? (index == correctIndex
+                                ? Colors.green
+                                : Colors.red)
+                            : Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        elevation: 0,
+                        foregroundColor: Colors.black,
+                        disabledForegroundColor: Colors.black,
+                        disabledBackgroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                      ),
                     ),
                   ),
                 ),
