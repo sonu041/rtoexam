@@ -1,4 +1,4 @@
-package com.example.rtoexam
+package com.shuvankar.rtoexam
 
 import io.flutter.embedding.android.FlutterActivity
 
