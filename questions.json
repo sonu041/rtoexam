@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "question": "Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",
+    "options": [
+      "Sound horn and proceed",
+      "Slow down, sound horn and pass",
+      "Stop the vehicle and wait till the pedestrians cross the road and then proceed"
+    ],
+    "answer": 2,
+    "image": ""
+  },
+  {
+    "id": 2,
+    "question": "The following sign represents..",
+    "options": ["Stop", "No parking", "Hospital ahead"],
+    "answer": 0,
+    "image": "assets/q2.png"
+  },
+  {
+    "id": 3,
+    "question": "You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",
+    "options": [
+      "Increase the speed and try to cross the bridge as fast as possible",
+      "Put on the head light and pass the bridge",
+      "Wait till the other vehicle crosses the bridge and then proceed"
+    ],
+    "answer": 2,
+    "image": ""
+  },
+  {
+    "id": 4,
+    "question": "The following sign represents..",
+    "options": ["Keep left", "There is no road to the left", "Compulsory turn left"],
+    "answer": 2,
+    "image": "assets/q4.png"
+  },
+  {
+    "id": 5,
+    "question": "When a vehicle is involved in an accident causing injury to any person",
+    "options": [
+      "Take the vehicle to the nearest police station and report the accident",
+      "Stop the vehicle and report to the police station",
+      "Take all reasonable steps to secure medical attention to the injured and report to the nearest police station within 24 hours"
+    ],
+    "answer": 2,
+    "image": ""
+  },
+  {
+    "id": 6,
+    "question": "The following sign represents..",
+    "options": ["Give way", "Hospital ahead", "Traffic island ahead"],
+    "answer": 0,
+    "image": "assets/q6.png"
+  },
+  {
+    "id": 7,
+    "question": "Overtaking is prohibited",
+    "options": [
+      "Allowed everywhere",
+      "Allowed only in city limits",
+      "Not allowed where sign is present"
+    ],
+    "answer": 2,
+    "image": ""
+  },
+  {
+    "id": 8,
+    "question": "The following sign represents..",
+    "options": ["No entry", "One way", "Speed limit ends"],
+    "answer": 1,
+    "image": "assets/q8.png"
+  },
+  {
+    "id": 9,
+    "question": "You can overtake a vehicle in front",
+    "options": [
+      "Through the right side of that vehicle",
+      "Through the left side, if the road is wide"
+    ],
+    "answer": 0,
+    "image": ""
+  },
+  {
+    "id": 10,
+    "question": "The following sign represents..",
+    "options": ["Sharp curve to the right", "U-turn prohibited"],
+    "answer": 1,
+    "image": "assets/q10.png"
+  },
+  {
+    "id": 11,
+    "question": "When a vehicle approaches an unguarded railway level crossing, before crossing it, the driver shall",
+    "options": [
+      "Stop the vehicle on the left side of the road, get down, go to the railway track, and ensure that no train or trolley is coming from either side",
+      "Sound horn and cross the track as fast as possible"
+    ],
+    "answer": 0,
+    "image": ""
+  },
+  {
+    "id": 12,
+    "question": "The following sign represents..",
+    "options": ["Pedestrians may enter", "Pedestrians prohibited"],
+    "answer": 0,
+    "image": "assets/q12.png"
+  },
+  {
+    "id": 13,
+    "question": "How can you distinguish a transport vehicle?",
+    "options": [
+      "By colour of the vehicle",
+      "By looking at the tyre size",
+      "By looking at the number plate of the vehicle"
+    ],
+    "answer": 2,
+    "image": ""
+  },
+  {
+    "id": 14,
+    "question": "The following sign represents..",
+    "options": ["Keep right side", "Compulsory turn to right"],
+    "answer": 1,
+    "image": "assets/q14.png"
+  },
+  {
+    "id": 15,
+    "question": "Validity of learners licence",
+    "options": ["6 months", "30 days"],
+    "answer": 0,
+    "image": ""
+  },
+  {
+    "id": 16,
+    "question": "The following sign represents..",
+    "options": ["Right turn prohibited", "Right turn allowed"],
+    "answer": 0,
+    "image": "assets/q16.png"
+  },
+  {
+    "id": 17,
+    "question": "Validity of driving licence for transport vehicle",
+    "options": ["3 years", "20 years"],
+    "answer": 0,
+    "image": ""
+  },
+  {
+    "id": 18,
+    "question": "The following sign represents..",
+    "options": ["Horn prohibited", "Compulsory sound horn", "May sound horn"],
+    "answer": 0,
+    "image": "assets/q18.png"
+  },
+  {
+    "id": 19,
+    "question": "Free passage should be given to the following types of vehicles",
+    "options": [
+      "Ambulance and fire service vehicles",
+      "Express, Super Express buses"
+    ],
+    "answer": 0,
+    "image": ""
+  },
+  {
+    "id": 20,
+    "question": "The following sign represents..",
+    "options": ["Narrow bridge ahead", "Narrow road ahead"],
+    "answer": 0,
+    "image": "assets/q20.png"
+  }
+]
